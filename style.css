@@ -1,3 +1,178 @@
-div{
+header{
+    height: 800px;
+    background:  url('./Images/blueasy-freebie.png') no-repeat center;
+
+}
+nav{
+    background:#3f495082;;
+    height:150px;
+    display: flex;
+    text-align:center;
+    justify-content: center;
+}
+.p{
+    text-align: center;
+    background-color: #434e55;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    width:1170px;
+    position:relative;
+}
+.menu_ngang
+{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right:0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.top > a{
+    position: absolute;
+    left:0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    font-size: 30px;
+   font-weight: bold;
+    color: white;
+
+}
+.top > ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    color: white;;
+    font-weight: bold;
+}
+.top ul li a{
+    margin-right:55px;
+}
+.last_thing{
+    margin-right:0px !important;
+}
+#frame{
+    border:1px solid #49b0dd;
+    padding:5px;
+    color:#49b0dd;
+}
+span{
+    color:#49b0dd
+}
+header > div {
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    padding-top:250px;
+}
+.title{
+    font-size:42px;
+    background: #3f4a51;
+    color:white;
+}
+.container{
+    background: #4bcaff;
+    display:flex;
+
+    justify-content: center;
+}
+h2{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-top:80px;
+    text-transform: uppercase;
+    font-size:30px;
+}
+.child{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    height:400px;
+    width:1170px;
+    display: :flex;
+}
+.items{
+    display:flex;
+    flex-direction: row;
+    margin-top: 50px;
+    
+}
+.coffee  {
+   color:white;
+}
+.text1{
+    font-size:12px;
+}
+.coffee{
+    flex:1;
+}
+.instant{
+    flex:1;
+}
+.serious{
+    flex:1;
+}
+frame{
+    flex:1;
+}
+.text1 > p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+h5{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.child>h2{
+    color:white;
+}
+.cover{
+    background:black;
+    height:850px;
+    display:flex;
+    justify-content: center;
+    text-align:center;
+}
+.khunghinh{
+    height:850px;
+    width:1170px;
+    background: yellowgreen;
+    
+}
+.khunghinhtop{
+    width:1170px;
+    height:195px;
     background: red;
+    position:relative;
+}
+.khunghinh_bottom
+{
+    height:650px;
+    width:1170px;
+    background:blue;
+}
+.left_1{
+    position: absolute;
+    left:0;
+    top:50%;
+    transform: translateY(-50%)
+}
+.right_1{
+    position: absolute;
+    right:0;
+    top:50%;
+    transform: translateY(-50%)
+}
+.right_1 > ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+ 
+}
+.right_1 ul li {
+    margin-right:50px;
 }
