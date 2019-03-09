@@ -175,4 +175,42 @@ h5{
 }
 .right_1 ul li {
     margin-right:50px;
+  
+}
+.last_thing1{
+    margin-right:0px !important;
+}
+.hinhtren
+{
+    display: flex;
+}
+.hinhduoi{
+    display:Flex;
+}
+.mot{
+    flex:1
+}
+.hai{
+    flex:1
+}
+.ba{
+    flex:1
+}
+.bon{
+    flex:1
+}
+.nam{
+    flex:1
+}
+.hai{
+    flex:1
+}
+.sau{
+    flex:1
+}
+.bay{
+    flex:1
+}
+.tam{
+    flex:1
 }
