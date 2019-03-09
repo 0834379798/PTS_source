@@ -131,7 +131,7 @@ h5{
     color:white;
 }
 .cover{
-    background:black;
+    background:white;
     height:850px;
     display:flex;
     justify-content: center;
@@ -140,32 +140,38 @@ h5{
 .khunghinh{
     height:850px;
     width:1170px;
-    background: yellowgreen;
+    background:white;
     
 }
 .khunghinhtop{
     width:1170px;
     height:195px;
-    background: red;
+    background:white;
     position:relative;
 }
 .khunghinh_bottom
 {
     height:650px;
     width:1170px;
-    background:blue;
+    background:white;
 }
 .left_1{
     position: absolute;
     left:0;
     top:50%;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    font-size: 30px;
+   font-weight: bold;
+    color: #bbc0c3;
 }
 .right_1{
     position: absolute;
     right:0;
     top:50%;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .right_1 > ul {
     display: flex;
@@ -183,9 +189,11 @@ h5{
 .hinhtren
 {
     display: flex;
+    margin:0px 30px 30px 0px;
 }
 .hinhduoi{
     display:Flex;
+    margin:30px 30px 30px 0px;
 }
 .mot{
     flex:1
@@ -213,4 +221,38 @@ h5{
 }
 .tam{
     flex:1
+}
+.menu_duoi li a{
+    font-size:14px;
+}
+.cover_gray{
+    background: #515f67;
+    height:475px;
+    display:flex;
+    justify-content: center;
+    align-content:middle;
+}
+.cover_child{
+    width:1170px;
+    height:475px;
+    background: #515f67;
+    
+}
+.text{
+    float:left;
+    width:550px;
+    color: white;
+}
+.video{
+    float:right;
+    width:550px;
+    padding-top:75px;}
+.nop_bai > input 
+{
+    color:#353f49;
+    padding: 5px;
+    border:1px solid black;
+    width:135px;
+    height:45px;
+    
 }
