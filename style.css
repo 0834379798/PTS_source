@@ -249,10 +249,286 @@ h5{
     padding-top:75px;}
 .nop_bai > input 
 {
-    color:#353f49;
+    color:#0d212d;
     padding: 5px;
     border:1px solid black;
     width:135px;
     height:45px;
+    border-radius: 4px;
+    background: #3d484f;
     
+}
+.cover_bird{
+    background:#4bcaff;
+    display:flex;
+    justify-content: center;
+    height:300px;
+}
+.khung_twitter{
+    background:#4bcaff;
+    height:300px;
+    width:1170px;
+    display:flex;
+}
+.twitter{
+    flex:999;
+   color:white;
+    text-align: left;
+}
+.symbol{
+    float:right;
+    flex:1;
+}
+.symbol > img {
+    width:35px;
+    height:25px;
+    padding-top:80px;
+}
+.twitter>h2{
+    font-size:30px;
+    
+}
+.twitter>p{
+    font-size:28px;
+}
+.twitter>p>span{
+    font-weight: bold;
+    color:white;
+}
+.cover_parents{
+    height:500px;
+    background:  url('./Images/male.png') no-repeat center;
+    display:flex;
+    justify-content: center;
+    color:white;
+    
+}
+.cover_danong{
+    height:500px;
+    width:1170px;
+    
+}
+.frame_2{
+    display:flex;
+
+}
+.child_of_frame2_1{
+    flex:1;
+
+}
+.child_of_frame2_2{
+    flex:1;
+}
+.frame_3{
+    display:flex;
+
+}
+.child_of_frame3_1{
+    flex:1;
+    margin-top: 19px;
+}
+.child_of_frame3_2{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    
+  
+}
+.child_of_frame2_1>p{
+    padding-top:39px;
+}
+.child_of_frame2_2>p{
+    padding-top:39px;
+}
+.hinhanh_minhhoa{
+    margin-right: 68px;
+    text-align:center;
+    border:2px solid white;
+    width:45px;
+    padding:20px;
+    
+}
+.hinh_cuoi{
+        border: 2px solid white;
+        margin-right:0px !important;
+        width:45px;
+        padding:20px;
+    
+}
+h6{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.cover_bird_dup{
+    background:white;
+    display:flex;
+    justify-content: center;
+    height:300px;
+    
+}
+.khung_twitter_dup{
+    background:white;
+    height:300px;
+    width:1170px;
+    display:flex;
+   
+}
+.twitter_dup{
+    flex:999;
+    color:#65696c;
+    text-align: left;
+}
+.symbol_dup{
+    float:right;
+    flex:1;
+}
+.symbol_dup > img {
+    width:35px;
+    height:25px;
+    padding-top:80px;
+}
+.twitter_dup>h2{
+    font-size:30px;
+    
+}
+.twitter_dup>p{
+    font-size:28px;
+}
+h6{
+    color:#8dcbe5;
+
+}
+.protect_elements
+{
+    height:815px;
+    background:  url('./Images/last_pic.png') no-repeat center;
+    display:flex;
+    justify-content: center;
+    z-index: 1;
+}
+.shield{
+    width:1170px;
+    height:815px;
+    
+}
+.full_name
+{
+    display: flex;
+    padding-top:35px;
+}
+.left_top{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+}
+.right_top{
+    flex:;
+    
+}
+.right_top > p{ 
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size:14px;
+    
+}
+.email
+{
+    display: flex;
+    padding-top:35px;
+}
+.left_bot{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+  
+}
+.right_bot{
+    flex:1;
+    
+}
+.right_bot > p{ 
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size:14px;
+}
+.left_top > input{
+    width:470px;
+    height:50px;
+}
+.left_bot> input{
+    width:470px;
+    height:50px;
+    z-index: 2;
+ 
+}
+.right_top > p {
+    padding-top:16px;
+    margin-left: 130px;
+}
+.right_bot > p {
+    padding-top:6px;
+    margin-left: 20px;
+}
+.message{
+    
+}
+.rela_mess > input {
+    height:215px;
+    width:1170px;
+    margin-top:10px;
+}
+.rela_mess{
+    padding-top:35px;
+}
+.label_1{
+    margin-bottom: 10px;
+}
+.label_2{
+    margin-bottom: 10px;
+}
+.button>  input{
+    width:370px;
+    height:60px;
+    background: #4bcaff;
+    color: white;
+    border: #4bcaff;
+}
+.button{
+    padding-top:40px;
+}
+.footer
+{
+    height:170px;
+    background: #353f47;
+    display: flex;
+    justify-content: center;
+}
+.baove{
+    height:170px;
+    width:1170px;
+    display:flex;
+
+}
+.right_cuoi{
+    flex:1;
+    float:right;
+    text-align:right;
+    padding-top:80px;
+
+}
+.left_cuoi{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    padding-top:80px;
+    color:#47535c;
+}
+.right_cuoi>p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color:#47535c;
+}
+.cuoicung{
+    margin-right:20px;
 }
